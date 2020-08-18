@@ -19,6 +19,7 @@ workflows:
   build:
     jobs:
       - build:
+          context: architect
           filters:
             branches:
               only: master
